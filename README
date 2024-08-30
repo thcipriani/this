@@ -1,0 +1,9 @@
+I'm dumb.
+
+$ git clone https://github.com/thcipriani/this.git
+$ git -C this ls-tree HEAD
+100644 blob e69de29bb2d1d6434b8b29ae775ad8c2e48c5391    "\\this"
+$ ls -l this | grep this
+-rw-r--r-- 1 thcipriani thcipriani  0 Aug 30 15:39 '\this'
+
+Why?
